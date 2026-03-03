@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/it-support-panel/', // Caminho exato do seu repositório no GitHub
+  base: './', // Caminho relativo para funcionar em qualquer subpasta do GitHub Pages
 })
