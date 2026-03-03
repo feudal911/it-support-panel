@@ -65,7 +65,7 @@ function App() {
   };
 
   const deleteItem = (id: string) => {
-    if (confirm('Deseja realmente excluir este item?')) {
+    if (window.confirm('Deseja realmente excluir este item?')) {
       setItems(items.filter(item => item.id !== id));
     }
   };
